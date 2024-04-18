@@ -1,0 +1,10 @@
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+/* Use CSS variable for dynamic color */
+.color-box {
+  background-color: var(--box-color, white); /* Use white as default color */
+}
